@@ -1,0 +1,29 @@
+program exams{
+	declare a , b enddeclare 
+	function p1(in x,inout y){
+		declare c , d enddeclare 
+		procedure p11(in w, inout z){
+			declare e enddeclare	 
+			function p21(in x){
+				print ( 8 );
+
+				return (1);
+			}
+			
+			function p22(in x){
+				print ( 22 );
+				call p22();
+				return(2);	
+				
+			}
+			print ( 6 );
+			c := p22(in d);
+		}
+		call p11();
+		return(4);
+	}
+
+	a := p1(in b);
+
+	return (0);
+}
