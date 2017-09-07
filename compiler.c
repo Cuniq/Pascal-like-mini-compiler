@@ -1,10 +1,3 @@
-/**
-*
-* Thanasis Argyroudis
-* AM: 2215
-* Phase: Paragwgh telikou kwdika
-*
-*/
 
 #pragma warning(disable: 4996)
 #include <stdio.h>
